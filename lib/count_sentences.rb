@@ -1,5 +1,3 @@
-require 'pry'
-
 class String
   
  def sentence?
@@ -7,7 +5,7 @@ class String
   end
 
   def question?
-  self.end_with?("?")
+    self.end_with?("?")
   end
 
   def exclamation?
